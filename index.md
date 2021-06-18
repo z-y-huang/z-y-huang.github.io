@@ -8,9 +8,3 @@ I am a Ph.D student in Economics at Stanford University. I am a [Health Policy R
 My research interests include public, urban, and health economics.
 
 Feel free to contact me via email at [zyhuang@stanford.edu](mailto:zyhuang@stanford.edu).
-
-  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-    
-      <a class="me-3 py-2 text-decoration-none" href="/research">Test</a>
-    
-  </nav>
