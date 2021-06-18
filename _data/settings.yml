@@ -1,6 +1,6 @@
 menu:
 - {name: 'Research', url: '/research'}
-- {name: 'CV', url: '{{ site.github.url }}/files/test.pdf'}
+- {name: 'CV', url: '{{ site.github.url }}/files/CV.pdf'}
 
 social:
 - {icon: 'twitter', link: 'https://twitter.com/zongyhuang'}
