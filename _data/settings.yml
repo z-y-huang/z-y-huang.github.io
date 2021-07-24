@@ -1,6 +1,7 @@
 menu:
 - {name: 'Research', url: '/research'}
 - {name: 'CV', url: '/files/CV.pdf'}
+- {name: 'Teaching', url: '/teaching'}
 
 social:
 - {icon: 'twitter', link: 'https://twitter.com/zongyhuang'}
