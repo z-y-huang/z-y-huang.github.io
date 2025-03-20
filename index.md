@@ -5,6 +5,6 @@ title: "Home"
 
 I am a PhD student in Economics at Stanford University. I am a [Health Policy Research Scholar](https://healthpolicyresearch-scholars.org) at the Robert Wood Johnson Foundation and a [Predoctoral Scholar](https://med.stanford.edu/phs/about/people/postdocs.html) at the Stanford Center for Population Health Sciences.
 
-My research interests include urban and public economics.
+My research interests include public economics and industrial organization.
 
 Feel free to contact me via email at [zyhuang@stanford.edu](mailto:zyhuang@stanford.edu).
