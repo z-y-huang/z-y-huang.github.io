@@ -17,15 +17,14 @@
         
         /* Create custom plus/minus indicator */
         details summary::before {
-            content: '[+]';
+            content: '+';
             position: absolute;
             left: 5px;
-            transition: transform 0.2s ease;
         }
         
         /* Change to minus sign when open */
         details[open] summary::before {
-            content: '[-]';
+            content: '-';
         }
     </style>
 </head>
