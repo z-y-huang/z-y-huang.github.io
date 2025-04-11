@@ -10,16 +10,17 @@
             position: relative;
             padding-left: 25px;
         }
-        
+
         /* Create custom plus/minus indicator */
         details summary::before {
-            content: '+';
+            content: '[+]';
             position: absolute;
+            left: 5px;
         }
         
         /* Change to minus sign when open */
         details[open] summary::before {
-            content: '-';
+            content: '[-]';
         }
     </style>
 </head>
