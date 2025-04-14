@@ -1,6 +1,7 @@
 menu:
 - {name: 'Research', url: '/research'}
-- {name: 'CV', url: '/assets/pdf/CV.pdf'}
+- {name: 'CV', url: '/assets/pdf/CV_ZH.pdf'}
+- {name: 'Resume', url: '/assets/pdf/Resume_ZH.pdf'}
 - {name: 'Teaching', url: '/teaching'}
 
 social:
