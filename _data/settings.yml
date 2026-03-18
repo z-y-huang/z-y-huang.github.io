@@ -1,8 +1,3 @@
 menu:
 - {name: 'Research', url: '/research'}
 - {name: 'CV', url: '/assets/pdf/CV_ZH.pdf'}
-- {name: 'Teaching', url: '/teaching'}
-
-social:
-- {icon: 'github', link: 'https://github.com/z-y-huang'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/zong-huang-13350364/'}

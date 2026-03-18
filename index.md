@@ -3,8 +3,6 @@ layout: home
 title: "Home"
 ---
 
-I am a PhD candidate in economics at Stanford University. My research focuses on public economics and industrial organization.
+I am a PhD candidate in economics at Stanford University. I am a public finance economist and my work focuses on the general equilibrium effects of taxes and regulations. I will be joining Santa Clara University as an Assistant Professor of Finance in Fall 2026.
 
-I am also a [Health Policy Research Scholar](https://healthpolicyresearch-scholars.org) at the Robert Wood Johnson Foundation, a Predoctoral Scholar at the [Stanford Center for Population Health Sciences](https://med.stanford.edu/phs/), and affiliated with the [Cities, Housing, and Society Lab](https://chslab.stanford.edu/faculty-researchers).
-
-Feel free to contact me via email at [zyhuang@stanford.edu](mailto:zyhuang@stanford.edu).
+Feel free to contact me via email at [zongyhuang@gmail.com](mailto:zongyhuang@gmail.com).
