@@ -1,17 +1,17 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$linkColor: #212529 !important;
-$paperLinkColor: darkred !important;
+$background-color: #ffffff;
+$body-color: #000000;
+$body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$link-color: #212529;
+$paper-link-color: darkred;
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
-}
+  background: $background-color;
+  color: $body-color;
+  font-family: $body-font;
 
-body a {
-  color: $linkColor
+  a {
+    color: $link-color;
+  }
 }
 
 .paper-entry + .paper-entry {
@@ -19,47 +19,44 @@ body a {
 }
 
 .paper-title {
-  color: $paperLinkColor;
+  color: $paper-link-color;
 }
 
-.paper-title-text {
-  margin-bottom: 0;
-}
-
+.paper-title-text,
 .paper-authors,
 .paper-publication {
-  margin: 0.25rem 0 0;
+  margin: 0;
 }
 
 .paper-coauthor-link {
-  color: $bodyColor !important;
+  color: $body-color;
 }
 
 .paper-abstract {
   margin-top: 0.25rem;
-}
 
-.paper-abstract summary {
-  list-style: none;
-  cursor: pointer;
-  position: relative;
-  padding-left: 1.25rem;
-}
+  summary {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-left: 1.25rem;
 
-.paper-abstract summary::-webkit-details-marker {
-  display: none;
-}
+    &::-webkit-details-marker {
+      display: none;
+    }
 
-.paper-abstract summary::before {
-  content: '+';
-  position: absolute;
-  left: 0;
-}
+    &::before {
+      content: '+';
+      position: absolute;
+      left: 0;
+    }
+  }
 
-.paper-abstract[open] summary::before {
-  content: '-';
-}
+  &[open] summary::before {
+    content: '-';
+  }
 
-.paper-abstract p {
-  margin: 0.5rem 0 0;
+  p {
+    margin: 0.5rem 0 0;
+  }
 }
