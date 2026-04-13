@@ -19,27 +19,7 @@
           {% endif %}
 
           {% if paper.authors %}
-            {% capture authors_markup %}
-              {%- for author in paper.authors -%}
-                {%- unless forloop.first -%}
-                  {%- if forloop.last -%}
-                    {%- if forloop.length == 2 -%} and {% else %}, and {% endif -%}
-                  {%- else -%}
-                    , 
-                  {%- endif -%}
-                {%- endunless -%}
-                {%- assign author_url = author.url -%}
-                {%- if author_url -%}
-                  {%- unless author_url contains '://' -%}
-                    {%- assign author_url = site.github.url | append: author_url -%}
-                  {%- endunless -%}
-                  <a href="{{ author_url }}" class="paper-coauthor-link">{{ author.name }}</a>
-                {%- else -%}
-                  {{ author.name }}
-                {%- endif -%}
-              {%- endfor -%}
-            {% endcapture %}
-            <p class="paper-authors">(with {{ authors_markup | strip }})</p>
+            <p class="paper-authors">(with {% for author in paper.authors %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.length == 2 %} and {% else %}, and {% endif %}{% else %}, {% endif %}{% endif %}{% assign author_url = author.url %}{% if author_url %}{% unless author_url contains '://' %}{% assign author_url = site.github.url | append: author_url %}{% endunless %}<a href="{{ author_url }}" class="paper-coauthor-link">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% endfor %})</p>
           {% endif %}
 
           {% if paper.venue or paper.status %}
