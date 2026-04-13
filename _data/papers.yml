@@ -1,0 +1,45 @@
+sections:
+  - title: "Working papers"
+    papers:
+      - title: "The Redistributive and Efficiency Effects of Property Taxes"
+        url: "/assets/pdf/PropertyTax.pdf"
+        abstract: "Property taxes raise revenue proportional to housing values, thereby distorting housing consumption and creating unequal tax burdens for households receiving the same public services. This paper develops a spatial equilibrium model to quantify the redistributive and efficiency effects of property taxation. I use household microdata to estimate housing demand: the price elasticity of housing expenditures is 0.54, rejecting a common assumption of unit elastic demand. Counterfactual simulations show that switching from property taxes to a non-distortionary tax increases housing supply by 2.4%, but decreases equity and increases income segregation. Under a property tax system, low-income households receive implicit transfers of approximately $1,500 annually, whereas high-income households pay $4,000. Increasing redistribution with a progressive tax system is significantly constrained by high-income household mobility."
+      - title: "The Unequal Effects of Upzoning: Evidence from Cook County"
+        url: "/assets/pdf/UpzoningInequality.pdf"
+        authors:
+          - name: "Rebecca Diamond"
+          - name: "Timothy McQuade"
+        abstract: "We quantify the real estate developer response to a variety of proposed zoning reforms by estimating a novel structural model of developer behavior using data from Cook County, Illinois. The model combines a flexible hedonic model of house prices with revealed preferences of developer behavior, enabling us to evaluate heterogeneous supply-side responses to zoning reforms. A sweeping zoning reform allowing at minimum 3 units on every lot only increases the aggregate housing supply by 3.5 percent, with the average lot having 1.3 units built on it. Development is limited because the revenue from a 3-unit multifamily building typically does not justify the cost of purchasing and demolishing existing single-family homes. Furthermore, an alternative zoning reform to \"streamline\" the permitting process leads to essentially no new development. Simply lowering the fixed cost of new development without also allowing developers to build more units does little to ease supply constraints. To see a large supply-side response from developers, cities must either make more vacant land available for residential development or permit much higher density per lot."
+
+  - title: "Publications"
+    papers:
+      - title: "The Effect of Public Insurance Design on Pharmaceutical Prices: Evidence From Medicare Part D"
+        url: "/assets/pdf/ClosingTheGap.pdf"
+        authors:
+          - name: "Katja Hofmann"
+            url: "https://ktjhofmann.github.io"
+        venue: "American Economic Journal: Economic Policy"
+        status: "Forthcoming"
+        abstract: "Public programs that provide benefits through private markets contend with strategic firm behavior. We study this dynamic in Medicare Part D. The Affordable Care Act closed a coverage gap in Part D by mandating drug manufacturers cover 50% of branded drug costs in the gap. Beneficiaries became 5 percentage points less likely to forgo prescriptions upon reaching the gap. However, manufacturers' response led to 21% higher drug prices, partially offsetting the insurance expansion. The closure was intended to be a $100 transfer to beneficiaries financed by manufacturers, but instead resulted in a $55 transfer to beneficiaries financed by the government."
+      - title: "Promoting Parents' Social Capital to Increase Children's Attendance in Head Start: Evidence From an Experimental Intervention"
+        url: "https://www.tandfonline.com/doi/abs/10.1080/19345747.2016.1258099"
+        authors:
+          - name: "Teresa Sommer"
+          - name: "Terri Sabol"
+          - name: "Lindsay Chase-Lansdale"
+          - name: "Mario Small"
+          - name: "Henry Wilde"
+          - name: "Sean Brown"
+        venue: "Journal of Research on Educational Effectiveness"
+        status: "October 2017"
+        abstract: "Improving children's attendance is a high priority for Head Start and other early childhood education programs serving low-income children. We conducted a randomized control trial in a major northern city to evaluate the impact of a low-cost intervention designed to promote parents' social capital as a potential influence on children's attendance in Head Start centers. The intervention assigned children to treatment group classrooms based on (a) neighborhood of residence (geography condition) or (b) the geography condition plus the opportunity for parents to form partnerships in support of their children's attendance, or to control group classrooms according to Head Start guidelines only. We did not find impacts on average attendance throughout the year. However, the intervention did lead to increased attendance during the winter when average center attendance was lowest. There were no impacts on fall or spring attendance. Follow-up exploratory analyses of focus groups with parents and staff suggested that parents' level of connection and trust, self-generated partnership strategies, and commitment to their children's education may be factors by which parents' social capital expands and children's attendance improves."
+
+  - title: "Work in progress"
+    papers:
+      - title: "The Role of Housing in Inflation Inequality"
+
+  - title: "Resting papers"
+    papers:
+      - title: "Florida Pill Mills and the U.S. Heroin Epidemic"
+        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4275601"
+        abstract: "The U.S. is in the midst of an opioid crisis that began in the 1990s with prescription opioids and has since evolved to include heroin and fentanyl. I show evidence that the 2010 crackdown on Florida pill mills catalyzed the shift from prescription opioids to heroin. Counties with higher exposure to diverted oxycodone from Florida pill mills experienced substantially more heroin overdose deaths after the crackdown. I then revisit a leading hypothesis that the 2010 reformulation of OxyContin initiated the heroin epidemic. I argue that the OxyContin reformulation is unlikely to be the primary driver for the rise in heroin deaths post-2010. I show the following: (i) OxyContin accounted for only 14.0% share of the prescription opioids market from 2006 to 2010, and (ii) counties with low pre-reformulation consumption of OxyContin also experienced large increases in heroin deaths."

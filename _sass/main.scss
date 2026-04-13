@@ -2,6 +2,7 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $linkColor: #212529 !important;
+$paperLinkColor: darkred !important;
 // $linkColor: darkred !important;
 
 body {
@@ -12,4 +13,54 @@ body {
 
 body a {
   color: $linkColor
+}
+
+.paper-entry + .paper-entry {
+  margin-top: 1.75rem;
+}
+
+.paper-title {
+  color: $paperLinkColor;
+}
+
+.paper-title-text {
+  margin-bottom: 0;
+}
+
+.paper-authors,
+.paper-publication {
+  margin: 0.25rem 0 0;
+}
+
+.paper-coauthor-link {
+  color: $bodyColor !important;
+}
+
+.paper-abstract {
+  margin-top: 0.25rem;
+}
+
+.paper-abstract summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.paper-abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-abstract summary::before {
+  content: '+';
+  position: absolute;
+  left: 0;
+}
+
+.paper-abstract[open] summary::before {
+  content: '-';
+}
+
+.paper-abstract p {
+  margin: 0.5rem 0 0;
 }
