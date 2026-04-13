@@ -20,25 +20,24 @@
 
           {% if paper.authors %}
             {% assign author_count = paper.authors | size %}
-            <p class="paper-authors">
-              (with {% for author in paper.authors -%}
+            {% capture authors_markup -%}
+              {%- for author in paper.authors -%}
                 {%- if forloop.first == false -%}
                   {%- if forloop.last -%}
-                    {%- if author_count == 2 -%} and {% else %}, and {% endif -%}
-                  {%- else -%}
-                    , 
-                  {%- endif -%}
+                    {%- if author_count == 2 -%} and {% else -%}, and {% endif -%}
+                  {%- else -%}, {% endif -%}
                 {%- endif -%}
                 {%- assign author_url = author.url -%}
                 {%- if author_url -%}
                   {%- unless author_url contains '://' -%}
                     {%- assign author_url = site.github.url | append: author_url -%}
-                  {%- endunless -%}
-                  <a href="{{ author_url }}" class="paper-coauthor-link">{{ author.name }}</a>
-                {%- else -%}
-                  {{ author.name }}
+                  {%- endunless -%}<a href="{{ author_url }}" class="paper-coauthor-link">{{- author.name -}}</a>
+                {%- else -%}{{- author.name -}}
                 {%- endif -%}
-              {%- endfor %})
+              {%- endfor -%}
+            {%- endcapture %}
+            <p class="paper-authors">
+              (with {{ authors_markup | strip }})
             </p>
           {% endif %}
 
