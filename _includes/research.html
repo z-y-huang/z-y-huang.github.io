@@ -24,8 +24,14 @@
               {%- for author in paper.authors -%}
                 {%- if forloop.first == false -%}
                   {%- if forloop.last -%}
-                    {%- if author_count == 2 -%} and {% else -%}, and {% endif -%}
-                  {%- else -%}, {% endif -%}
+                    {%- if author_count == 2 -%}
+                      {{- " and " -}}
+                    {%- else -%}
+                      {{- ", and " -}}
+                    {%- endif -%}
+                  {%- else -%}
+                    {{- ", " -}}
+                  {%- endif -%}
                 {%- endif -%}
                 {%- assign author_url = author.url -%}
                 {%- if author_url -%}
@@ -54,7 +60,7 @@
 
           {% if paper.abstract %}
             <details class="paper-abstract">
-              <summary><strong>Abstract</strong></summary>
+              <summary>Abstract</summary>
               <p>{{ paper.abstract }}</p>
             </details>
           {% endif %}
