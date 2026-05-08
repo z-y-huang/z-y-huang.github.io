@@ -1,5 +1,5 @@
-#LyX 2.5 created this file. For more info see https://www.lyx.org/
-\lyxformat 643
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -7,14 +7,15 @@
 \textclass article
 \begin_preamble
 % \pagenumbering{gobble}
+
 \raggedbottom
 \end_preamble
 \use_default_options false
-\maintain_unincluded_children no
+\maintain_unincluded_children false
 \language american
 \language_package default
-\inputencoding auto-legacy
-\fontencoding auto
+\inputencoding auto
+\fontencoding global
 \font_roman "times" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -22,9 +23,7 @@
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
-\font_roman_osf false
-\font_sans_osf false
-\font_typewriter_osf false
+\font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -37,7 +36,7 @@
 \paperfontsize 11
 \spacing single
 \use_hyperref false
-\papersize letter
+\papersize letterpaper
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 2
@@ -56,19 +55,9 @@
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\justification default
-\crossref_package prettyref
-\use_formatted_ref 0
+\justification true
+\use_refstyle 0
 \use_minted 0
-\use_lineno 0
-\backgroundcolor none
-\fontcolor none
-\notefontcolor lightgray
-\boxbgcolor red
-\table_border_color default
-\table_odd_row_color default
-\table_even_row_color default
-\table_alt_row_colors_start 1
 \index Index
 \shortcut idx
 \color #008000
@@ -88,17 +77,11 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tablestyle default
 \tracking_changes false
 \output_changes false
-\change_bars false
-\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\docbook_table_output 0
-\docbook_mathml_prefix 1
-\docbook_mathml_version 0
 \end_header
 
 \begin_body
@@ -139,8 +122,7 @@ Leavey School of Business
 \begin_inset Text
 
 \begin_layout Plain Layout
-E-mail:
- 
+E-mail: 
 \shape italic
 zongyhuang@gmail.com
 \end_layout
@@ -162,8 +144,7 @@ Santa Clara University
 \begin_inset Text
 
 \begin_layout Plain Layout
-Website:
- 
+Website: 
 \shape italic
 z-y-huang.github.io
 \end_layout
@@ -196,8 +177,7 @@ z-y-huang.github.io
 \begin_inset Text
 
 \begin_layout Plain Layout
-Santa Clara,
- CA 95053
+Santa Clara, CA 95053
 \end_layout
 
 \end_inset
@@ -258,8 +238,7 @@ Ph.D.
 \shape italic
 Economics
 \shape default
-,
- 2026
+, 2026
 \end_layout
 
 \begin_layout Standard
@@ -270,10 +249,7 @@ Economics
 \begin_inset space \qquad{}
 \end_inset
 
-Committee:
- Rebecca Diamond,
- Liran Einav,
- Hunt Allcott
+Committee: Rebecca Diamond, Liran Einav, Hunt Allcott
 \end_layout
 
 \begin_layout Standard
@@ -304,8 +280,7 @@ Mathematics
 \shape italic
 Economics
 \shape default
-,
- 2016
+, 2016
 \begin_inset VSpace 12pt
 \end_inset
 
@@ -343,8 +318,7 @@ Santa Clara University
 \begin_inset space \qquad{}
 \end_inset
 
-Assistant Professor of Finance,
- 2026–
+Assistant Professor of Finance, 2026–
 \begin_inset VSpace 12pt
 \end_inset
 
@@ -391,8 +365,7 @@ The Redistributive and Efficiency Effects of Property Taxes
 
 
 \series bold
-The Unequal Effects of Upzoning:
- Evidence from Cook County
+The Unequal Effects of Upzoning: Evidence from Cook County
 \end_layout
 
 \begin_layout Standard
@@ -433,8 +406,8 @@ height "1pt"
 \noindent
 
 \series bold
-The Effect of Public Insurance Design on Pharmaceutical Prices:
- Evidence from Medicare Part D
+The Effect of Public Insurance Design on Pharmaceutical Prices: Evidence
+ from Medicare Part D
 \end_layout
 
 \begin_layout Standard
@@ -446,11 +419,9 @@ with Katja Hofmann
 \noindent
 
 \shape italic
-American Economic Journal:
- Economic Policy
+American Economic Journal: Economic Policy
 \shape default
-,
- forthcoming.
+, forthcoming.
 \end_layout
 
 \begin_layout Standard
@@ -463,20 +434,15 @@ American Economic Journal:
 \begin_layout Standard
 
 \series bold
-Promoting Parents’ Social Capital To Increase Children’s Attendance in Head Start:
- Evidence From an Experimental Intervention
+Promoting Parents’ Social Capital To Increase Children’s Attendance in Head
+ Start: Evidence From an Experimental Intervention
 \end_layout
 
 \begin_layout Standard
 with Teresa E.
- Sommer,
- Terri J.
- Sabol,
- P.
- Lindsay Chase-Lansdale,
- Mario Small,
- Henry Wilde,
- and Sean Brown
+ Sommer, Terri J.
+ Sabol, P.
+ Lindsay Chase-Lansdale, Mario Small, Henry Wilde, and Sean Brown
 \end_layout
 
 \begin_layout Standard
@@ -484,9 +450,7 @@ with Teresa E.
 \shape italic
 Journal for Research on Educational Effectiveness
 \shape default
-,
- 10(4),
- 732-766.
+, 10(4), 732-766.
 \end_layout
 
 \begin_layout Standard
@@ -611,47 +575,33 @@ height "1pt"
 
 \begin_layout Standard
 \noindent
-2025–2026:
- UEA North America Meeting,
- NBER Public Economics Fall Meeting,
- NYU Furman Center,
- UEA European Meeting,
- AREUEA National Conference,
- NBER Real Estate Summer Institute 
+2025–2026: UEA North America Meeting, NBER Public Economics Fall Meeting,
+ NYU Furman Center, UEA European Meeting, AREUEA National Conference
 \end_layout
 
 \begin_layout Standard
 \noindent
-2024–2025:
- ASSA Annual Meeting,
- UEA Summer School,
- CSQIEP Mentoring Conference
+2024–2025: ASSA Annual Meeting, UEA Summer School, CSQIEP Mentoring Conference
 \end_layout
 
 \begin_layout Standard
 \noindent
-2023–2024:
- Price Theory Summer Camp,
- NBER Urban Summer Institute 
+2023–2024: Price Theory Summer Camp, NBER Urban Summer Institute 
 \end_layout
 
 \begin_layout Standard
 \noindent
-2022–2023:
- AcademyHealth ARM,
- HPRS Summer Institute
+2022–2023: AcademyHealth ARM, HPRS Summer Institute
 \end_layout
 
 \begin_layout Standard
 \noindent
-2020–2021:
- Yale University
+2020–2021: Yale University
 \end_layout
 
 \begin_layout Standard
 \noindent
-2016–2017:
- APPAM Fall Research Conference
+2016–2017: APPAM Fall Research Conference
 \end_layout
 
 \begin_layout Standard
@@ -669,9 +619,7 @@ height "1pt"
 
 \series bold
 \size large
-FELLOWSHIPS,
- GRANTS,
- AND AWARDS
+FELLOWSHIPS, GRANTS, AND AWARDS
 \end_layout
 
 \begin_layout Standard
@@ -694,53 +642,45 @@ height "1pt"
 \noindent
 E.S.
  Shaw and B.F.
- Haley Fellowship for Economics,
- 2025 
+ Haley Fellowship for Economics, 2025 
 \emph on
 ($37,362)
 \end_layout
 
 \begin_layout Standard
 \noindent
-Robert Wood Johnson Foundation,
- Health Policy Research Scholar,
- 2022 
+Robert Wood Johnson Foundation, Health Policy Research Scholar, 2022 
 \emph on
 ($124,000)
 \end_layout
 
 \begin_layout Standard
 \noindent
-Spectrum Pilot Grant for Population Health Sciences,
- 2021 
+Spectrum Pilot Grant for Population Health Sciences, 2021 
 \emph on
 ($2,000)
 \end_layout
 
 \begin_layout Standard
 \noindent
-Stanford Population Health Sciences Predoctoral Scholar,
- 2020 
+Stanford Population Health Sciences Predoctoral Scholar, 2020 
 \end_layout
 
 \begin_layout Standard
 \noindent
-Stanford Economics Graduate Fellowship,
- 2020 
+Stanford Economics Graduate Fellowship, 2020 
 \end_layout
 
 \begin_layout Standard
-National Science Foundation,
- Graduate Research Fellowship Program,
- 2020 
+National Science Foundation, Graduate Research Fellowship Program, 2020
+ 
 \emph on
 (Honorable mention)
 \end_layout
 
 \begin_layout Standard
 \noindent
-New York University and Schmidt Futures,
- Computation in Economics Traineeship,
+New York University and Schmidt Futures, Computation in Economics Traineeship,
  2019 
 \emph on
 ($5,000)
@@ -781,25 +721,19 @@ height "1pt"
 
 \begin_layout Standard
 \noindent
-Applied Econometrics,
- Stanford University,
- 2024–2025
+Applied Econometrics, Stanford University, 2024–2025
 \end_layout
 
 \begin_layout Standard
 \noindent
-Economic Analysis II,
- Stanford University,
- 2023–2024 
+Economic Analysis II, Stanford University, 2023–2024 
 \emph on
 (Outstanding TA award)
 \end_layout
 
 \begin_layout Standard
 \noindent
-Microfinance and Financial Inclusion,
- Kellogg School of Management,
- 2015
+Microfinance and Financial Inclusion, Kellogg School of Management, 2015
 \begin_inset VSpace 12pt
 \end_inset
 
@@ -835,8 +769,7 @@ height "1pt"
 
 \begin_layout Standard
 \noindent
-Referee:
- 
+Referee: 
 \shape italic
 Journal of Public Economics
 \end_layout
@@ -880,10 +813,8 @@ height "1pt"
 
 \series bold
 Languages:
-
 \series default
- English (native),
- Mandarin Chinese (fluent)
+ English (native), Mandarin Chinese (fluent)
 \end_layout
 
 \begin_layout Standard
@@ -891,11 +822,9 @@ Languages:
 
 \series bold
 Clearance:
-
 \series default
  U.S.
- citizenship,
- Census Bureau Special Sworn Status
+ citizenship, Census Bureau Special Sworn Status
 \end_layout
 
 \end_body
