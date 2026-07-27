@@ -15,8 +15,8 @@ robots: noindex, nofollow
     </a>
   </li>
   <li class="mb-3">
-    <a href="{{ site.github.url }}/assets/pdf/slides_uea.pdf">
-      <i class="fas fa-file-pdf me-2"></i>Slides (UEA)
+    <a href="{{ site.github.url }}/assets/pdf/slides_nber.pdf">
+      <i class="fas fa-file-pdf me-2"></i>Slides (NBER)
     </a>
   </li>
 </ul>
