@@ -10,11 +10,6 @@ robots: noindex, nofollow
 
 <ul class="list-unstyled">
   <li class="mb-3">
-    <a href="{{ site.github.url }}/assets/pdf/discussion.pdf">
-      <i class="fas fa-file-pdf me-2"></i>Discussion
-    </a>
-  </li>
-  <li class="mb-3">
     <a href="{{ site.github.url }}/assets/pdf/slides_nber.pdf">
       <i class="fas fa-file-pdf me-2"></i>Slides (NBER)
     </a>
