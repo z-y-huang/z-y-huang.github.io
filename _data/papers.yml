@@ -4,6 +4,9 @@ sections:
       - title: "The Redistributive and Efficiency Effects of Property Taxes"
         url: "/assets/pdf/PropertyTax.pdf"
         abstract: "Property taxes raise revenue proportional to housing values, thereby distorting housing consumption and creating unequal tax burdens for households receiving the same public services. This paper develops a spatial equilibrium model to quantify the redistributive and efficiency effects of property taxation. I use household microdata to estimate housing demand: the price elasticity of housing expenditures is 0.54, rejecting a common assumption of unit elastic demand. Counterfactual simulations show that switching from property taxes to a non-distortionary tax increases housing supply by 2.4%, but decreases equity and increases income segregation. Under a property tax system, low-income households receive implicit transfers of approximately $1,500 annually, whereas high-income households pay $4,000. Increasing redistribution with a progressive tax system is significantly constrained by high-income household mobility."
+      - title: "Housing and Inflation Inequality in the United States"
+        url: "/assets/pdf/Housing Inflation.pdf"
+        abstract: "This paper studies inflation inequality in the U.S. due to heterogeneity in housing consumption. I construct rent indices using the American Community Survey and show that they closely track the Consumer Price Index, both nationally and by metropolitan area. Using these indices, I estimate shelter inflation across sociodemographic groups. Shelter inflation from 2006 to 2019 was 5.5 percentage points higher for non-white householders, who sort into neighborhoods and housing varieties with faster-growing rents. In contrast, shelter inflation did not vary by householder education. High-education householders sort into cities with faster-growing rents, but housing varieties with slower-growing rents. I develop a spatial equilibrium model with segmented housing markets and show that general non-homothetic preferences parsimoniously explain this pattern."
       - title: "The Unequal Effects of Upzoning: Evidence from Cook County"
         url: "/assets/pdf/UpzoningInequality.pdf"
         authors:
@@ -36,7 +39,7 @@ sections:
 
   - title: "Work in progress"
     papers:
-      - title: "The Role of Housing in Inflation Inequality"
+      - title: "The Fiscal Externalities of Local Amenities: Implications for Welfare Evaluation with Hedonics"
 
   - title: "Resting papers"
     papers:

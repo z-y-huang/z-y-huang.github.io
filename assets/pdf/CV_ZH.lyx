@@ -383,6 +383,18 @@ height "1pt"
 
 \series bold
 The Redistributive and Efficiency Effects of Property Taxes
+\series default
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Housing and Inflation Inequality in the United States
 \end_layout
 
 \begin_layout Standard
@@ -530,7 +542,8 @@ height "1pt"
 \begin_layout Standard
 
 \series bold
-The Role of Housing in Inflation Inequality
+The Fiscal Externalities of Local Amenities:
+ Implications for Welfare Evaluation with Hedonics
 \end_layout
 
 \begin_layout Standard
@@ -692,6 +705,11 @@ height "1pt"
 
 \begin_layout Standard
 \noindent
+AREUEA Junior Scholars Program
+\end_layout
+
+\begin_layout Standard
+\noindent
 E.S.
  Shaw and B.F.
  Haley Fellowship for Economics,
@@ -838,7 +856,8 @@ height "1pt"
 Referee:
  
 \shape italic
-Journal of Public Economics
+Journal of Public Economics,
+ Journal of Urban Economics
 \end_layout
 
 \begin_layout Standard
