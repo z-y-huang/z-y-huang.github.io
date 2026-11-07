@@ -1,7 +1,7 @@
 sections:
   - title: "Working papers"
     papers:
-      - title: "The Redistributive and Efficiency Effects of Property Taxes"
+      - title: "The Redistributive and Efficiency Effects of Property Taxation"
         url: "/assets/pdf/PropertyTax.pdf"
         abstract: "Property taxes raise revenue proportional to housing values, thereby distorting housing consumption and creating unequal tax burdens for households receiving the same public services. This paper develops a spatial equilibrium model to quantify the redistributive and efficiency effects of property taxation. I use household microdata to estimate housing demand: the price elasticity of housing expenditures is 0.54, rejecting a common assumption of unit elastic demand. Counterfactual simulations show that switching from property taxes to a non-distortionary tax increases housing supply by 2.4%, but decreases equity and increases income segregation. Under a property tax system, low-income households receive implicit transfers of approximately $1,500 annually, whereas high-income households pay $4,000. Increasing redistribution with a progressive tax system is significantly constrained by high-income household mobility."
       - title: "Housing and Inflation Inequality in the United States"
